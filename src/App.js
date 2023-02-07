@@ -124,10 +124,11 @@ function App() {
       const locations = response.data;
       const { city, country_code2, ip, isp, latitude, longitude, zipcode } =
         locations;
-      const { current_time } = locations.time_zone;
+      const { current_time, offset } = locations.time_zone;
       const newLocation = {
         ip,
         isp,
+        offset,
         latitude,
         longitude,
         current_time,
@@ -178,7 +179,7 @@ function App() {
           </Info>
           <Info>
             <InfoTitle>TIME ZONE</InfoTitle>
-            <InfoText>{locations.current_time}</InfoText>
+            <InfoText>UTC {locations.offset}:00</InfoText>
           </Info>
           <Info>
             <InfoTitle>ISP</InfoTitle>
