@@ -23,10 +23,9 @@ const SectionTitle = styled.h1`
 `;
 
 const Form = styled.div`
-   display: flex;
+  display: flex;
   justify-content: center;
-  margin-bottom:2rem
-  }
+  margin-bottom: 2rem;
 `;
 const Input = styled.input`
   width: 90%;
@@ -41,33 +40,30 @@ const Input = styled.input`
 `;
 
 const Btn = styled.button`
-background-color:var(--VeryDarkGray);
- height: 3rem;
- width:3rem;
-   border-radius: 0px 10px 10px 0px;
-   cursor: pointer;
-   border:none;
-   
-  }
+  background-color: var(--VeryDarkGray);
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0px 10px 10px 0px;
+  cursor: pointer;
+  border: none;
 `;
 const Value = styled.div`
-background-color:#fff;
-   border-radius: 10px;
-   margin: auto;
-   z-index:999;
-   display:flex;
-   flex-direction:column;
-   row-gap:2rem;
-   position:relative;
-   padding:1rem;
-   width:100%;
-   @media (min-width: 500px) {
-     flex-direction:row;
-     column-gap:2rem;
-     width:80%;
-     text-align:left;
-      padding:2rem;
-  }
+  background-color: #fff;
+  border-radius: 10px;
+  margin: auto;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2rem;
+  position: relative;
+  padding: 1rem;
+  width: 100%;
+  @media (min-width: 500px) {
+    flex-direction: row;
+    column-gap: 2rem;
+    width: 80%;
+    text-align: left;
+    padding: 2rem;
   }
 `;
 const Info = styled.div`
@@ -84,17 +80,15 @@ const Info = styled.div`
 `;
 
 const InfoText = styled.p`
- font-weight:800;
- font-size:22px;
- color:var(--VeryDarkGray)
-  }
+  font-weight: 800;
+  font-size: 22px;
+  color: var(--VeryDarkGray);
 `;
 const InfoTitle = styled.h3`
-   color:var(--DarkGray);
-   letter-spacing:2px;
-   font-weight:500;
-   font-size:12px
-  }
+  color: var(--DarkGray);
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 12px;
 `;
 
 const myIcon = new L.Icon({
